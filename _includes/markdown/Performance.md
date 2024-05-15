@@ -1,13 +1,13 @@
 <h2 id="performance-culture" class="anchor-heading">Performance Culture {% include Util/link_anchor anchor="performance-culture" %} {% include Util/top %}</h2>
 
-At 10up, we understand that website performance is essential for a positive User Experience, Engineering, SEO, Revenue, and Design. It's not a task that can be postponed but rather a continuous and evolving process that requires strategic planning, thoughtful consideration, and extensive experience in creating high-quality websites.
+At Cross-Link, we understand that website performance is essential for a positive User Experience, Engineering, SEO, Revenue, and Design. It's not a task that can be postponed but rather a continuous and evolving process that requires strategic planning, thoughtful consideration, and extensive experience in creating high-quality websites.
 
-10up engineers prioritize performance optimization when building solutions, using the latest best practices to ensure consistent and healthy performance metrics. We aim to develop innovative and dynamic solutions to reduce latency, bandwidth, and page load time.
+Cross-Link engineers prioritize performance optimization when building solutions, using the latest best practices to ensure consistent and healthy performance metrics. We aim to develop innovative and dynamic solutions to reduce latency, bandwidth, and page load time.
 
 
 <h2 id="core-web-vitals" class="anchor-heading">Core Web Vitals {% include Util/link_anchor anchor="core-web-vitals" %} {% include Util/top %}</h2>
 
-At 10up, we pay close attention to Largest Contentful Paint, Cumulative Layout Shift, and First Input Delay. Collectively, these three metrics are known as Core Web Vitals.
+At Cross-Link, we pay close attention to Largest Contentful Paint, Cumulative Layout Shift, and First Input Delay. Collectively, these three metrics are known as Core Web Vitals.
 
 We closely monitor Core Web Vitals during development to ensure a high-quality user experience. Maintaining healthy Web Vitals throughout the build and maintenance process is crucial, which requires a shift in building and supporting components. Achieving healthy Web Vitals requires a cross-disciplinary approach spanning Front-end engineering, Back-end engineering, Systems, Audience and Revenue, and Visual design.
 
@@ -210,7 +210,7 @@ _JavaScript files tend to be large and can block other resources from loading, s
 
 <h4>3.1 Minify and compress payloads</h4>
 
-To make your JavaScript code load faster and prevent it from blocking the rendering of your web page, it's important to minimize and compress the JavaScript payloads to reduce bandwidth usage. 10up Toolkit does this out-of-the-box using Webpack.
+To make your JavaScript code load faster and prevent it from blocking the rendering of your web page, it's important to minimize and compress the JavaScript payloads to reduce bandwidth usage. Cross-Link Toolkit does this out-of-the-box using Webpack.
 
 Files should also be [Gzip](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding) or [Brotli](https://github.com/google/brotli) compressed. All major hosts already do this.
 
@@ -271,7 +271,7 @@ _Large and complex CSS files can slow page load times and affect interactivity. 
 
 [Minifying CSS](https://web.dev/minify-css/) is a common practice that reduces data transfer between the server and browser. Since modern web pages have a lot of CSS, compressing them is crucial to reduce bandwidth consumption. 
 
-Use build tools like [Webpack](https://webpack.js.org/) or CDNs with query string parameters to minify CSS. Smaller CSS files can speed up download times and reduce render-blocking activity in the browser. [10up Toolkit](https://github.com/10up/10up-toolkit) does all this out of the box.
+Use build tools like [Webpack](https://webpack.js.org/) or CDNs with query string parameters to minify CSS. Smaller CSS files can speed up download times and reduce render-blocking activity in the browser. [Cross-Link Toolkit](https://github.com/10up/10up-toolkit) does all this out of the box.
 
 <h4>4.2 Leverage Purge CSS</h4>
 

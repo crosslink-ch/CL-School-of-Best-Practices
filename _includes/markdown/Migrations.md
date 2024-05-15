@@ -21,7 +21,7 @@ Make sure to have the plan peer reviewed by *at least* one other engineer.
 
 Now that we have a solid migration plan in place, we are ready to actually write the scripts that will handle the migration. All migrations will vary heavily at this step. Sometimes we can get WXR files and just use the WordPress importer (typically using [WP CLI](https://wp-cli.org/commands/import/)) to handle everything we need. Other times we'll use the WordPress Importer then write a script to modify data once it's in WordPress. Other times we'll write scripts that handle the entire migration process for us.
 
-All of these decisions should be part of the migration plan we put together, so at this point, we know exactly what we are going to do, and we can start work accordingly. 10up will generally use [WP CLI](https://wp-cli.org/) to power these scripts, which gives us great flexibility on what we can do, what output we can show, and typically you'll have a lot less issues with performance, like memory limits and timeouts.
+All of these decisions should be part of the migration plan we put together, so at this point, we know exactly what we are going to do, and we can start work accordingly. Cross-Link will generally use [WP CLI](https://wp-cli.org/) to power these scripts, which gives us great flexibility on what we can do, what output we can show, and typically you'll have a lot less issues with performance, like memory limits and timeouts.
 
 ## Thou Shalt Not Forget
 
@@ -99,7 +99,7 @@ Even the most carefully planned migration can have issues. The following are som
 
 * __Free up memory.__
 
-	During migration script execution, make sure to periodically free up memory. A typical function used at 10up is:
+	During migration script execution, make sure to periodically free up memory. A typical function used at Cross-Link is:
 
 ```php
 <?php
