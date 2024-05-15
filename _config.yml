@@ -1,12 +1,12 @@
-name:          10up Engineering Best Practices
-title:         10up Engineering Best Practices
+name:          CrossLink School of Best Practices
+title:         CrossLink School of Best Practices
 description:   Engineering best practices used by 10up.
-url:           https://10up.github.io/
-baseurl:       /Engineering-Best-Practices
+url:           https://best-practices.cross-link.ch/
+baseurl:       /
 author:
-  name:    10up
-  email:   sales@10up.com
-  github:  10up
+  name:    CrossLink
+  email:   help@cross.link
+  github:  crosslink-ch
   twitter: 10up
 
 markdown:      kramdown

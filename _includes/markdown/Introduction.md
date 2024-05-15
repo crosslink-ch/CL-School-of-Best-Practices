@@ -1,6 +1,6 @@
 <h2 id="audience" class="anchor-heading">Audience {% include Util/link_anchor anchor="audience" %}</h2>
 
-The 10up Engineering Best Practices are not geared to teach anyone to become an engineer. Rather, they aim to illustrate how to engineer the 10up way. Therefore, these best practices are intended for capable engineers.
+The CrossLink School of Best Practices are not geared to teach anyone to become an engineer. Rather, they aim to illustrate how to engineer the 10up way. Therefore, these best practices are intended for capable engineers.
 
 <h2 id="goal" class="anchor-heading">Goal {% include Util/link_anchor anchor="goal" %} {% include Util/top %}</h2>
 

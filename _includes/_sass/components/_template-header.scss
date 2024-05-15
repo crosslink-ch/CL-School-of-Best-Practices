@@ -1,8 +1,7 @@
 .template-header {
-  -webkit-background-size: cover;
-  background-size: cover;
+  background-repeat: repeat;
   text-align: center;
-
+  background-color: $primary-color;
   h1 {
     color: $default-light-color;
     font-weight: 800;
